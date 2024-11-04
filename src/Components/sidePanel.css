@@ -1,0 +1,38 @@
+.sideParent {
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border: 1px solid black;
+    padding-top: 40px;
+    padding-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif Billabong;
+    position: relative;
+}
+
+.logo {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.Toolbar {
+    font-size: small;
+    list-style-type: none;
+    padding: 0px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    display: flex;
+}
+
+.Toolbar span {
+    margin-left: 10px;
+}
+
+.Sidebarprofileimage {
+    height: 22px;
+    width: 22px;
+    border: 2px solid white;
+    border-radius: 50%;
+}

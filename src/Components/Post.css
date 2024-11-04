@@ -1,0 +1,92 @@
+.Postcontainer {
+    padding: 0px 10px 25px 10px;
+    margin: 0px 0px;
+    margin-bottom: 25px;
+    border: 1px solid rgb(28, 26, 26);
+    /* height: max-content; */
+}
+
+.PostUserProfileImg {
+    width: 100%;
+    height: 100%;
+    padding: 10px 25px;
+}
+
+.PostUserInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.PostProfileUserImg {
+    height: 25px;
+    width: 25px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.PostuserName {
+    font-size: 20px;
+}
+
+.PostTime {
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.PostImg {
+    height: 100%;
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 5px;
+
+}
+
+.postData {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 10px;
+    margin-top: -7px;
+    height: 40px;
+}
+
+.like {
+    display: flex;
+    gap: 15px;
+}
+
+.postData span {
+    cursor: pointer;
+}
+
+.addComment {
+    background-color: black;
+    color: white;
+    /* height: 10px; */
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.addComment span{
+    margin-left: -30px;
+    margin-top: -15px;
+    rotate: 42deg;
+    cursor: pointer;
+}
+.PostImgContainer{
+    margin: 7px 0px;
+}
+.addCommentInput{
+    background-color: black;
+    outline: none;
+    color: white;
+    padding: 3px 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    width: 100%;
+    text-decoration: none;
+}

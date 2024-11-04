@@ -1,0 +1,44 @@
+.bodyParent{
+    font-size: larger;
+    height: 100vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif Billabong;
+    flex-basis: 45%;
+    border: 1px solid rgb(109, 108, 108);
+    padding: 40px;
+    width: 45%;
+
+}
+.postsContainers{
+    height: 77vh;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+    /* border: 1px solid red; */
+}
+
+/* stories css */
+.storiesContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    overflow: auto;
+    overflow-inline: hidden;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; 
+}
+.storyContainer{
+    display: flex;
+    flex-direction: column;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.storyContainer span{
+    font-size: 14px;
+}
+.storyImg{
+    cursor: pointer;
+    height: 54px;
+    width: 54px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
