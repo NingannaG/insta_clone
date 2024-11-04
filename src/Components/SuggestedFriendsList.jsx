@@ -1,9 +1,21 @@
 import React from 'react'
+import Suggested from './Suggested'
 import './suggestedFriends.css'
 
 const SuggestedFriendsList = () => {
   return (
-    <div className='parent'>SuggestedFriendsList</div>
+    <div className='parent'>
+      <div className='headerText'>
+        <h6>Suggested For You</h6>
+        <h6>Sea All</h6>
+      </div>
+      <Suggested />
+      <Suggested />
+      <Suggested />
+      <Suggested />
+      <Suggested />
+    </div>
+    
   )
 }
 

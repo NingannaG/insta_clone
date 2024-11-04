@@ -1,9 +1,38 @@
 .parent{
     font-size: larger;
-    width: 20%;
-    border: 1px solid black;
+    /* border: 1px solid rgb(211, 17, 17); */
     height: 100vh;
-    padding-top: 40px;
-    padding-left: 50px;
+    width: 28%;
+    padding-top: 55px;
+    padding-left: 30px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif Billabong;
+}
+.headerText{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.SuggestedFriend{
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   align-self: center;
+
+}
+.fallow{
+    color: blue;
+}
+.SuggestedFriendImg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.SuggestedFriendDeatils{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
