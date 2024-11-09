@@ -1,5 +1,5 @@
 import React from 'react'
-import './Body.css'
+import '../CSS/Body.css'
 import Stories from './Stories'
 import Feed from './Post'
 

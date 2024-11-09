@@ -1,0 +1,119 @@
+.loginParent{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    height: 100Vh;
+    width: 100Vw;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    border: 1px solid rgb(84, 82, 82);   
+     width: 300px;
+     height: 511px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.container h2{
+    /* padding: 30px; */
+    
+}
+.header{
+    margin-top: -50px;
+    padding: 50px 30px 00px 30px;
+
+}
+.container input{
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 90%;
+    font-size: 16px;
+    outline: none;
+    background-color: black;
+    color: white;
+    margin: 10px 10px;
+}
+.loginButton{
+    border-radius: 10px;
+    width: 90%;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: rgb(17, 89, 196);
+    margin-top: 10px;
+
+}
+.facebookIcon{
+    width: 22px;
+    height: 22px;
+    font-size: 16px;
+    margin: 5px;
+}
+.withFaceBook{
+    color: rgb(45, 45, 199);
+    font-size: 16px;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+.loginforgotPassword{
+    font-size: 12px;
+}
+.Account{
+    padding: 15px;
+    border: 1px solid rgb(84, 82, 82);
+    font-size: 16px;
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signUp{
+    margin-left: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.border{
+   border-width: 0.4px;
+   border-color: rgb(68, 57, 57);
+    width: 90px;
+    margin: 15px;
+}
+.Or{
+    font-size: 14px;
+    color:rgb(68, 57, 57); 
+    padding: 5px;
+}
+.Line{
+    display: flex;
+    gap: 2px;
+}
+.signupParent{
+    height: fit-content; 
+  padding-top: 20px;
+}
+.withfaceBook{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+.withfaceBook a{
+    text-decoration: none;
+    color: rgb(223, 221, 221);
+    font-weight: bold;
+}
+.loginforgotPassword a{
+    text-decoration: none;
+    color: rgb(224, 221, 221);
+    font-size: 12px;
+    padding: 10px;
+    font-weight: bold;
+}

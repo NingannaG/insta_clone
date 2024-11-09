@@ -1,0 +1,77 @@
+.profileParent{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    gap: 10px;
+
+}
+
+.ProfileImg{
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin: 50px;
+   display: flex;
+   cursor: pointer;
+   
+}
+.Username{
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+    font-style: 20px;
+}
+.Button{
+    width: 120px;
+    border-radius: 5px;
+    background-color: rgb(68, 63, 63);
+    text-align: center;
+    margin: 0px 12px;
+    padding: 3px;
+    color: white;
+    font-size: 16px;
+    
+
+}
+.SettingIocn{
+    cursor: pointer;
+}
+.Followers{
+    display:flex;
+    font-size: 16px;
+    gap: 25px;
+    padding: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.Ninganna{
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 18px;
+    cursor: pointer;
+    
+}
+.NewIcon{
+  margin-left: -200px;
+  margin-top: 30px;
+  padding: 10px;
+  cursor: pointer;
+}
+.New{
+    font-size: 12px;
+    
+    margin: 12px;
+}
+.ProfileIcons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    cursor: pointer;
+}
+.ProfileIcons span{
+    margin: 0px 30px 0px 10px;
+}

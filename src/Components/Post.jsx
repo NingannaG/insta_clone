@@ -1,7 +1,8 @@
 import React from 'react'
 import nature from '../nature.jpg'
-import './Post.css'
+import '../CSS/Post.css'
 import { BookmarkIcon, CommentIcon, LikeIcon, sendIocn, ShareIcon } from '../Lib/svg'
+
 const Post = () => {
   return (
     <div className='Postcontainer'>

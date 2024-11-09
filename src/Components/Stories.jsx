@@ -1,6 +1,7 @@
 import React from 'react'
-import './Body.css'
+import '../CSS/Body.css'
 import nature from '../nature.jpg'
+
 export const Story = () => {
     return (
         <>

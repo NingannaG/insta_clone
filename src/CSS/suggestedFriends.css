@@ -1,37 +1,42 @@
-.parent{
+.parent {
     font-size: larger;
     /* border: 1px solid rgb(211, 17, 17); */
     height: 100vh;
     width: 28%;
     padding-top: 55px;
     padding-left: 30px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif Billabong;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif Billabong;
 }
-.headerText{
+
+.headerText {
     display: flex;
     justify-content: space-between;
-    
+
 }
-.SuggestedFriend{
+
+.SuggestedFriend {
     margin-top: 15px;
     display: flex;
     gap: 10px;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-   align-self: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
 
 }
-.fallow{
+
+.fallow {
     color: blue;
 }
-.SuggestedFriendImg{
+
+.SuggestedFriendImg {
     height: 40px;
     width: 40px;
     border-radius: 50%;
     border: 2px solid white;
 }
-.SuggestedFriendDeatils{
+
+.SuggestedFriendDeatils {
     display: flex;
     justify-content: space-between;
     align-items: center;

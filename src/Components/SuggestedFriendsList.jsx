@@ -1,6 +1,6 @@
 import React from 'react'
 import Suggested from './Suggested'
-import './suggestedFriends.css'
+import '../CSS/suggestedFriends.css'
 
 const SuggestedFriendsList = () => {
   return (
