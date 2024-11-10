@@ -10,6 +10,11 @@ import {
 import Signup from './Pages/Signup';
 import Login from './Pages/Login';
 import Profilepage from './Pages/Profile';
+import MessageContainer from './Pages/MessageContainer';
+import MessageBady from './Components/MessageBady';
+import Search from './Pages/Search';
+import Notification from './Pages/Notification';
+import Create from './Pages/Create';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -27,6 +32,41 @@ const router = createBrowserRouter([
     element:
       <>
         <Profilepage />
+      </>
+  },
+  {
+    path: '/message',
+    element:
+      <>
+        <MessageContainer />
+      </>
+  },
+  // {
+  //   path: '/message',
+  //   element:
+  //     <>
+  //       <MessageBady/>
+  //     </>
+  // },
+  // {
+  //   path: '/search',
+  //   element:
+  //     <>
+  //       <Search/>
+  //     </>
+  // },
+  {
+    path: '/notifiction',
+    element:
+      <>
+        <Notification/>
+      </>
+  },
+  {
+    path: '/create',
+    element:
+      <>
+        <Create/>
       </>
   }
 ]);

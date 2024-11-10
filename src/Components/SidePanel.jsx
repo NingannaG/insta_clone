@@ -5,70 +5,68 @@ import { HomeIcon, SearchIcon, HeartIcon, CreateIcon, MoreIcon, ProfileIcon, Exp
 import image from '../nature.jpg'
 
 const SidePanel = () => {
-  const text = true;
-  const textColor = "white";
+  const textColor="white";
+  const text=true;
   return (
-    <div className='sideParent'>
+    <div className='sidePanelParent'>
       <div className='logo'>Instagram</div>
-      <div className='Toolbar'>
+      <div className='panelMenus'>
         <div className='sidePanelMenus'>
           <NavLink to='/' style={{ textDecoration: "none", color: textColor }}>
-            {HomeIcon}
-            {text && <div>Home</div>}
+            <div className='sidePanelIcon'>{HomeIcon}</div>
+            {text && <div className='sidePanelText'>Home</div>}
           </NavLink>
         </div>
         <div className='sidePanelMenus'>
           <NavLink to='/' style={{ textDecoration: "none", color: textColor }} >
-            {SearchIcon}
-            {text && <div>Search</div>}
+          <div className='sidePanelIcon'>{SearchIcon}</div>
+          {text && <div className='sidePanelText'>Search</div>}
           </NavLink>
         </div>
         <div className='sidePanelMenus'>
-          <NavLink to='/' style={{ textDecoration: "none", color: textColor }} >
-            {ExploreIcon}
-            {text && <div>Explore</div>}
+          <NavLink to='/explore' style={{ textDecoration: "none", color: textColor }} >
+          <div className='sidePanelIcon'>{ExploreIcon}</div>
+          {text && <div className='sidePanelText'>Explore</div>}
           </NavLink>
         </div>
         <div className='sidePanelMenus'>
-          <NavLink to='/' style={{ textDecoration: "none", color: textColor }} >
-            {ReelsIcons}
-            {text && <div>Reels</div>}
+          <NavLink to='/reels' style={{ textDecoration: "none", color: textColor }} >
+          <div className='sidePanelIcon'>{ReelsIcons}</div>
+          {text && <div className='sidePanelText'>Reels</div>}
           </NavLink>
         </div>
         <div className='sidePanelMenus'>
-          <NavLink to='/' style={{ textDecoration: "none", color: textColor }} >
-            {MessageIcon}
-            {text && <div>Message</div>}
+          <NavLink to='/message' style={{ textDecoration: "none", color: textColor }} >
+          <div className='sidePanelIcon'>{MessageIcon}</div>
+          {text && <div className='sidePanelText'>Message</div>}
           </NavLink>
         </div>
         <div className='sidePanelMenus'>
-          <NavLink to='/' style={{ textDecoration: "none", color: textColor }} >
-            {HeartIcon}
-            {text && <div>Notifiction</div>}
+          <NavLink to='/notifiction' style={{ textDecoration: "none", color: textColor }} >
+          <div className='sidePanelIcon'>{HeartIcon}</div>
+          {text && <div className='sidePanelText'>Notifiction</div>}
           </NavLink>
         </div>
         <div className='sidePanelMenus'>
-          <NavLink to='/' style={{ textDecoration: "none", color: textColor }} >
-            {CreateIcon}
-            {text && <div>Create</div>}
+          <NavLink to='/create' style={{ textDecoration: "none", color: textColor }} >
+          <div className='sidePanelIcon'>{CreateIcon}</div>
+          {text && <div className='sidePanelText'>Create</div>}
           </NavLink>
         </div>
         <div className='sidePanelMenus'>
-          <NavLink to='/' style={{ textDecoration: "none", color: textColor }} >
-            {MoreIcon}
-            {text && <div>More</div>}
+          <NavLink to='/more' style={{ textDecoration: "none", color: textColor }} >
+          <div className='sidePanelIcon'>{MoreIcon}</div>
+          {text && <div className='sidePanelText'>More</div>}
           </NavLink>
         </div>
         <div className='sidePanelMenus'>
-          <NavLink to='/' style={{ textDecoration: "none", color: textColor }} >
-            <img src={image} className='Sidebarprofileimage' />
-            {text && <div>Profile</div>}
+          <NavLink to='/Profile' style={{ textDecoration: "none", color: textColor }} >
+            <div className='sidePanelIcon'><img src={image} className='Sidebarprofileimage' /></div>
+            {text && <div className='sidePanelText'>Profile</div>}
           </NavLink>
         </div>
       </div>
     </div>
-
-
   )
 }
 

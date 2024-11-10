@@ -7,7 +7,7 @@ const SuggestedFriendsList = () => {
     <div className='parent'>
       <div className='headerText'>
         <h6>Suggested For You</h6>
-        <h6>Sea All</h6>
+        <h6>See All</h6>
       </div>
       <Suggested />
       <Suggested />

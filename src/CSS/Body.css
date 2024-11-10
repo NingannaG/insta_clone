@@ -6,13 +6,14 @@
     border: 1px solid rgb(109, 108, 108);
     padding: 40px;
     width: 45%;
+    margin-left: 18%;
 
 }
 .postsContainers{
     height: 77vh;
     overflow: auto;
-    -ms-overflow-style: none;
-    scrollbar-width: none; 
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
     /* border: 1px solid red; */
 }
 

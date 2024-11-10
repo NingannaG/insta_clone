@@ -1,0 +1,123 @@
+.messageContainer {
+    margin-left: 18%;
+    width: 82%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.messageParent {
+    flex-direction: row;
+    background-color: black;
+    display: flex;
+    width: 100%;
+    color: white;
+    height: 100vh;
+
+}
+
+/* Messages Search Box CSS */
+.messageSearchParent {
+    width: 35%;
+    height: 100vh;
+    border: 1px solid rgb(105, 80, 80);
+}
+
+.userDetails {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 25px;
+    font-weight: bold;
+
+}
+
+/* messageSearchNote CSS */
+.messageSearchNoteImg {
+    height: 60px;
+    width: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.messageSearchNote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 20px; */
+    cursor: pointer;
+}
+
+.messageSesrchNotes {
+    flex-direction: row;
+    display: flex;
+    margin: 0px 20px;
+    margin-top: -25px;
+    gap: 10px;
+    overflow: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+}
+
+.messageSearchNoteText {
+    margin-bottom: -15px;
+    padding: 2px 5px;
+    border: 1px solid rgb(31, 30, 30);
+    border-radius: 15px;
+    background-color:rgb(7, 12, 7);
+    z-index: 100;
+    cursor: pointer;
+}
+
+.messageSearchNoteUser {
+    margin-top: -5px;
+    font-size: 16px;
+}
+.messageUserHeader{
+    margin-top: px;
+    justify-content: space-between;
+    display: flex;
+    margin: 5px 25px;
+}
+.messageUser{
+    display: flex;
+    flex-direction: row;
+    border: 0.5px solid rgb(36, 34, 34);
+    padding: 10px;
+    align-items: center;
+    font-size: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.messageUserProfile{
+    height: 60px;
+    width:60px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 10px;
+}
+.messageUserProfileUserDetails{
+display: flex;
+flex-direction: column;
+}
+.messageUsers{
+    height: 53%;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.messageUsersInput{
+    width: 88%;
+    margin: 0px 22px;
+    background-color: transparent;
+}
+.searchFriends{
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 8px;
+    outline: none;
+    margin: 10px 0px;
+}

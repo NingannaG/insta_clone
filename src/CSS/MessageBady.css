@@ -1,0 +1,111 @@
+.messageUserChat{
+    height: 100px;
+    width:718px;
+    border: 1px solid white;
+    display: flex;
+     
+    flex-direction: row;
+    border: 0.5px solid rgb(36, 34, 34);
+    padding: 10px;
+    align-items: center;
+    font-size: 15px;
+    /* margin: 10px; */
+    border-radius: 10px;
+    
+}
+.messageUserChatlIcon{
+    justify-content: space-around;
+    gap: 10px;
+}
+.messageUserChatIcons{
+    display: flex;
+    gap: 10px;
+    padding-left: 450px;
+    /* flex-direction: row; */
+}
+.messageUserChatForward{
+    display: flex;
+    
+}
+.chatContainer{
+    height: 65%;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    margin: 10px 20px;
+}
+.input{
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin: 20px 30px;
+    position: relative;
+}
+.inputSearch{
+    background-color: transparent; 
+    border: 2px solid rgb(27, 65, 170);
+    border-radius: 28px;
+    width: 100%;
+    padding: 10px 50px;
+    color: white;
+    display: block;
+
+    
+}
+.messageUserChatForwardIcons{
+    margin-top: 152px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.messageUserChatForwardImage img{
+    height: 220px;
+    width: 180px;
+    border: 1px solid white;
+    margin: 10px;
+    border-radius: 10px;
+}
+.messageUserProfileChat{
+    height: 55px;
+    width: 55px;
+    margin-top: 10px;
+    margin-left: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.messageUserProfileUserDetailsChat{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 10px;
+}
+.input span{
+    margin-left:15px ;
+    display: inline-flex; /* Ensures the transform works as expected */
+    transform: scale(1.3)
+    
+}
+.sendIcon{
+    rotate: 45deg;
+    cursor: pointer;
+    position: absolute;
+    right: 30px; /* Position icon on the left side */
+    color: #fff;
+}
+.HeartIcons{
+    position: absolute;
+    right: 70px; /* Position icon on the left side */
+    color: #fff;
+    cursor: pointer;
+}
+.upLoadImgIcon{
+    position: absolute;
+    right: 110px;
+    cursor: pointer;
+}
+.eMoji{
+    position: absolute;
+    left: 10px;
+    cursor: pointer;
+}

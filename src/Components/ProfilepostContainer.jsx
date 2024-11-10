@@ -4,14 +4,31 @@ import '../CSS/ProfilepostContainer.css'
 
 const Post = () => {
   return (
-    <div className="post">
-      <img src={Nature} />
+    <div className="profilePost">
+      <img src={Nature} className='profilePostImg'/>
     </div>
   )
 }
 const ProfilepostContainer = () => {
   return (
-    <div>
+    <div className='profilePostContainer'>
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
       <Post />
       <Post />
       <Post />
